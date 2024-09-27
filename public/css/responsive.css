@@ -1,0 +1,540 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 320px) {
+.back_body {
+	background: url(../images/back_body/bg_1.jpg) fixed no-repeat -900px -70px;
+}
+.btn.btn-primary.quote_btn {
+	background-color: #1cc8c2;
+	color: #fff;
+	width: 100%;
+}
+.cd-intro {
+	background: rgba(02, 18, 99, 0.9);
+	border-radius: 15px;
+}
+.cd-words-wrapper {
+	color: #1cc8c2;
+}
+.cd-headline {
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+	padding: 0 15px;
+	border-radius: 15px;
+}
+.cd-intro p {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	text-align: justify;
+	color: #fff;
+	padding: 0 15px;
+}
+.body_text {
+	top: 80%;
+	left: 0;
+}
+.btn.btn-primary.get_quo {
+	margin: 15px 0 20px 10px;
+}
+.nav_area {
+	display: none;
+}
+.nav_area_responsive {
+	display: block;
+}
+.nav_area ul li {
+	display: block;
+}
+.navbar-collapse {
+	background-color: #fff;
+}
+.nav_area ul {
+	text-align: left;
+}
+.welcome_heading {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 75px 0 0;
+}
+.welcome_heading h1 {
+	font-size: 24px;
+}
+.welcome_heading h6 {
+	font-size: 28px;
+}
+.welcome_text p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.we_area_heading h1 {
+	font-size: 24px;
+}
+.we_area_heading h6 {
+	font-size: 28px;
+}
+.box_area {
+	margin: 0 0 15px 0;
+}
+.why_heading h1 {
+	font-size: 28px;
+}
+.why_heading h3 {
+	font-size: 28px;
+}
+.left_area img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.left_area {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.ico_area {
+	width: 25%;
+}
+.text_more {
+	width: 75%;
+}
+.first_line {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.first_line_last {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+.first_line:hover::before {
+	height: 250px;
+}
+.request_quote {
+	padding: 50px 0;
+}
+.name_box {
+	margin-bottom: 15px;
+	padding: 0;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.testimonials {
+	padding: 80px 0;
+}
+.client_text h2 {
+	font-size: 24px;
+}
+}
+ @media screen and (min-width: 321px) and (max-width: 480px) {
+.back_body {
+	background: url(../images/back_body/bg_1.jpg) fixed no-repeat -800px -70px;
+}
+.logo_area a img {
+	width: 125px;
+}
+.btn.btn-primary.quote_btn {
+	background-color: #1cc8c2;
+	color: #fff;
+}
+.navbar-toggle {
+	margin-top: 5px;
+}
+.cd-intro {
+	background: rgba(02, 18, 99, 0.9);
+	border-radius: 15px;
+}
+.cd-words-wrapper {
+	color: #1cc8c2;
+}
+.cd-headline {
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+	padding: 0 15px;
+	border-radius: 15px;
+}
+.cd-intro p {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	text-align: justify;
+	color: #fff;
+	padding: 0 15px;
+}
+.body_text {
+	top: 80%;
+	left: 0;
+}
+.btn.btn-primary.get_quo {
+	margin: 15px 0 20px 10px;
+}
+.nav_area {
+	display: none;
+}
+.nav_area_responsive {
+	display: block;
+}
+.nav_area ul li {
+	display: block;
+}
+.navbar-collapse {
+	background-color: #fff;
+}
+.nav_area ul {
+	text-align: left;
+}
+.welcome_heading {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 5px 0 0;
+}
+.welcome_heading h1 {
+	font-size: 24px;
+}
+.welcome_heading h6 {
+	font-size: 28px;
+}
+.welcome_text p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.we_area_heading h1 {
+	font-size: 24px;
+}
+.we_area_heading h6 {
+	font-size: 28px;
+}
+.box_area {
+	margin: 0 0 15px 0;
+}
+.why_heading h1 {
+	font-size: 28px;
+}
+.why_heading h3 {
+	font-size: 28px;
+}
+.left_area img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.left_area {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.ico_area {
+	width: 25%;
+}
+.text_more {
+	width: 75%;
+}
+.first_line {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.first_line_last {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+.first_line:hover::before {
+	height: 175%;
+}
+.request_quote {
+	padding: 50px 0;
+}
+.name_box {
+	margin-bottom: 15px;
+	padding: 0;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.testimonials {
+	padding: 80px 0;
+}
+.client_text h2 {
+	font-size: 24px;
+}
+}
+ @media screen and (min-width: 481px) and (max-width: 767px) {
+.back_body {
+	background: url(../images/back_body/bg_1.jpg) fixed no-repeat -800px -70px;
+}
+.logo_area a img {
+	width: 125px;
+}
+.btn.btn-primary.quote_btn {
+	background-color: #1cc8c2;
+	color: #fff;
+}
+.navbar-toggle {
+	margin-top: 5px;
+}
+.cd-intro {
+	background: rgba(02, 18, 99, 0.9);
+	border-radius: 15px;
+}
+.cd-words-wrapper {
+	color: #1cc8c2;
+}
+.cd-headline {
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+	padding: 0 15px;
+	border-radius: 15px;
+}
+.cd-intro p {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	text-align: justify;
+	color: #fff;
+	padding: 0 15px;
+}
+.body_text {
+	top: 80%;
+	left: 0;
+}
+.btn.btn-primary.get_quo {
+	margin: 15px 0 20px 0px;
+}
+.nav_area {
+	display: none;
+}
+.nav_area_responsive {
+	display: block;
+}
+.nav_area ul li {
+	display: block;
+}
+.navbar-collapse {
+	background-color: #fff;
+}
+.nav_area ul {
+	text-align: left;
+}
+.welcome_heading {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding: 5px 0 0;
+}
+.welcome_heading h1 {
+	font-size: 24px;
+}
+.welcome_heading h6 {
+	font-size: 28px;
+}
+.welcome_text p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.we_area_heading h1 {
+	font-size: 24px;
+}
+.we_area_heading h6 {
+	font-size: 28px;
+}
+.box_area {
+	margin: 0 0 15px 0;
+}
+.why_heading h1 {
+	font-size: 28px;
+}
+.why_heading h3 {
+	font-size: 28px;
+}
+.left_area img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.left_area {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.ico_area {
+	width: 25%;
+}
+.text_more {
+	width: 75%;
+}
+.first_line {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.first_line_last {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+.first_line:hover::before {
+	height: 175%;
+}
+.request_quote {
+	padding: 50px 0;
+}
+.name_box {
+	margin-bottom: 15px;
+	padding: 0;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.testimonials {
+	padding: 80px 0;
+}
+.client_text h2 {
+	font-size: 24px;
+}
+}
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+.back_body {
+	background: url(../images/back_body/bg_1.jpg) fixed no-repeat -550px 0px;
+}
+.nav_area_responsive {
+	display: none;
+}
+.btn.btn-primary.quote_btn {
+	background-color: #1cc8c2;
+	color: #fff;
+}
+.nav_area {
+	width: 100%;
+}
+.nav_area ul li a {
+	padding: 0px 8px;
+}
+.btn.btn-primary.get_in {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+.body_text {
+	top: 25%;
+}
+.cd-headline {
+	font-size: 27px;
+}
+.welcome_area {
+	padding: 50px 0;
+}
+.text_more {
+	width: 70%;
+}
+.left_area img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.first_line {
+	margin-bottom: 30px;
+}
+.first_line:hover::before {
+	height: 105%;
+}
+.text_more h6 {
+	font-size: 12px;
+}
+.text_more p {
+	font-size: 12px;
+	line-height: 19px;
+}
+.request_quote {
+	padding: 50px 0;
+}
+.our_android_app {
+	padding: 50px 0;
+}
+.testimonials {
+	padding: 50px 0;
+}
+.client_picture img {
+	width: 150px;
+}
+.footer_heading h2 {
+	font-size: 24px;
+}
+.footer_heading h4 {
+	font-size: 26px;
+}
+.social_area ul li {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+}
+}
+ @media screen and (min-width: 992px) and (max-width: 1199px) {
+.back_body {
+	background: url(../images/back_body/bg_1.jpg) fixed no-repeat -350px 0px;
+}
+.nav_area_responsive {
+	display: none;
+}
+.btn.btn-primary.quote_btn {
+	background-color: #1cc8c2;
+	color: #fff;
+}
+.nav_area {
+	width: 80%;
+}
+.nav_area ul li a {
+	padding: 0px 8px;
+}
+.btn.btn-primary.get_in {
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+.body_text {
+	top: 25%;
+}
+.cd-headline {
+	font-size: 40px;
+}
+.welcome_area {
+	padding: 50px 0;
+}
+.text_more {
+	width: 70%;
+}
+.left_area img {
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.first_line:hover::before {
+	height: 150%;
+}
+.request_quote {
+	padding: 50px 0;
+}
+.our_android_app {
+	padding: 50px 0;
+}
+.testimonials {
+	padding: 50px 0;
+}
+.client_picture img {
+	width: 150px;
+}
+.footer_heading h2 {
+	font-size: 24px;
+}
+.footer_heading h4 {
+	font-size: 26px;
+}
+.social_area ul li {
+	display: inline-block;
+	margin: 0 5px 5px 0;
+}
+}
